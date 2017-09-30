@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="bolochain"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\block\;CMake Files\mine\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/aijinsong/Documents/projects/com.aijs.cxx/bolochain"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/aijinsong/Documents/projects/com.aijs.cxx/bolochain/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/aijinsong/Documents/projects/com.aijs.cxx/bolochain/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/aijinsong/Documents/projects/com.aijs.cxx/bolochain/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/aijinsong/Documents/projects/com.aijs.cxx/bolochain/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/aijinsong/Documents/projects/com.aijs.cxx/bolochain"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/aijinsong/Documents/projects/com.aijs.cxx/bolochain/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/aijinsong/Documents/projects/com.aijs.cxx/bolochain/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/aijinsong/Documents/projects/com.aijs.cxx/bolochain/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/aijinsong/Documents/projects/com.aijs.cxx/bolochain/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/aijinsong/Documents/projects/com.aijs.cxx/bolochain"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/aijinsong/Documents/projects/com.aijs.cxx/bolochain/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/aijinsong/Documents/projects/com.aijs.cxx/bolochain/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/aijinsong/Documents/projects/com.aijs.cxx/bolochain/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/aijinsong/Documents/projects/com.aijs.cxx/bolochain/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bolochain">
+				<Option output="/Users/aijinsong/Documents/projects/com.aijs.cxx/bolochain/bolochain" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/aijinsong/Documents/projects/com.aijs.cxx/bolochain"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/aijinsong/Documents/projects/com.aijs.cxx/bolochain/block"/>
+					<Add directory="/Users/aijinsong/Documents/projects/com.aijs.cxx/bolochain/mine"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/aijinsong/Documents/projects/com.aijs.cxx/bolochain/Makefile&quot;  VERBOSE=1 bolochain"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/aijinsong/Documents/projects/com.aijs.cxx/bolochain/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/aijinsong/Documents/projects/com.aijs.cxx/bolochain/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/aijinsong/Documents/projects/com.aijs.cxx/bolochain/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bolochain/fast">
+				<Option output="/Users/aijinsong/Documents/projects/com.aijs.cxx/bolochain/bolochain" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/aijinsong/Documents/projects/com.aijs.cxx/bolochain"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/aijinsong/Documents/projects/com.aijs.cxx/bolochain/block"/>
+					<Add directory="/Users/aijinsong/Documents/projects/com.aijs.cxx/bolochain/mine"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/aijinsong/Documents/projects/com.aijs.cxx/bolochain/Makefile&quot;  VERBOSE=1 bolochain/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/aijinsong/Documents/projects/com.aijs.cxx/bolochain/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/aijinsong/Documents/projects/com.aijs.cxx/bolochain/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/aijinsong/Documents/projects/com.aijs.cxx/bolochain/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="blockchain">
+				<Option output="/Users/aijinsong/Documents/projects/com.aijs.cxx/bolochain/block/libblockchain.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/aijinsong/Documents/projects/com.aijs.cxx/bolochain/block"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/aijinsong/Documents/projects/com.aijs.cxx/bolochain/block"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/aijinsong/Documents/projects/com.aijs.cxx/bolochain/block/Makefile&quot;  VERBOSE=1 blockchain"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/aijinsong/Documents/projects/com.aijs.cxx/bolochain/block/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/aijinsong/Documents/projects/com.aijs.cxx/bolochain/block/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/aijinsong/Documents/projects/com.aijs.cxx/bolochain/block/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="blockchain/fast">
+				<Option output="/Users/aijinsong/Documents/projects/com.aijs.cxx/bolochain/block/libblockchain.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/aijinsong/Documents/projects/com.aijs.cxx/bolochain/block"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/aijinsong/Documents/projects/com.aijs.cxx/bolochain/block"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/aijinsong/Documents/projects/com.aijs.cxx/bolochain/block/Makefile&quot;  VERBOSE=1 blockchain/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/aijinsong/Documents/projects/com.aijs.cxx/bolochain/block/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/aijinsong/Documents/projects/com.aijs.cxx/bolochain/block/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/aijinsong/Documents/projects/com.aijs.cxx/bolochain/block/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="block">
+				<Option output="/Users/aijinsong/Documents/projects/com.aijs.cxx/bolochain/block/libblock.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/aijinsong/Documents/projects/com.aijs.cxx/bolochain/block"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/aijinsong/Documents/projects/com.aijs.cxx/bolochain/block"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/aijinsong/Documents/projects/com.aijs.cxx/bolochain/block/Makefile&quot;  VERBOSE=1 block"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/aijinsong/Documents/projects/com.aijs.cxx/bolochain/block/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/aijinsong/Documents/projects/com.aijs.cxx/bolochain/block/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/aijinsong/Documents/projects/com.aijs.cxx/bolochain/block/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="block/fast">
+				<Option output="/Users/aijinsong/Documents/projects/com.aijs.cxx/bolochain/block/libblock.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/aijinsong/Documents/projects/com.aijs.cxx/bolochain/block"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/aijinsong/Documents/projects/com.aijs.cxx/bolochain/block"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/aijinsong/Documents/projects/com.aijs.cxx/bolochain/block/Makefile&quot;  VERBOSE=1 block/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/aijinsong/Documents/projects/com.aijs.cxx/bolochain/block/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/aijinsong/Documents/projects/com.aijs.cxx/bolochain/block/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/aijinsong/Documents/projects/com.aijs.cxx/bolochain/block/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="miner">
+				<Option output="/Users/aijinsong/Documents/projects/com.aijs.cxx/bolochain/mine/libminer.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/aijinsong/Documents/projects/com.aijs.cxx/bolochain/mine"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/aijinsong/Documents/projects/com.aijs.cxx/bolochain/block"/>
+					<Add directory="/Users/aijinsong/Documents/projects/com.aijs.cxx/bolochain/mine"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/aijinsong/Documents/projects/com.aijs.cxx/bolochain/mine/Makefile&quot;  VERBOSE=1 miner"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/aijinsong/Documents/projects/com.aijs.cxx/bolochain/mine/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/aijinsong/Documents/projects/com.aijs.cxx/bolochain/mine/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/aijinsong/Documents/projects/com.aijs.cxx/bolochain/mine/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="miner/fast">
+				<Option output="/Users/aijinsong/Documents/projects/com.aijs.cxx/bolochain/mine/libminer.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/aijinsong/Documents/projects/com.aijs.cxx/bolochain/mine"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/aijinsong/Documents/projects/com.aijs.cxx/bolochain/block"/>
+					<Add directory="/Users/aijinsong/Documents/projects/com.aijs.cxx/bolochain/mine"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/aijinsong/Documents/projects/com.aijs.cxx/bolochain/mine/Makefile&quot;  VERBOSE=1 miner/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/aijinsong/Documents/projects/com.aijs.cxx/bolochain/mine/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/aijinsong/Documents/projects/com.aijs.cxx/bolochain/mine/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/aijinsong/Documents/projects/com.aijs.cxx/bolochain/mine/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/aijinsong/Documents/projects/com.aijs.cxx/bolochain/block/block.cpp">
+			<Option target="block"/>
+		</Unit>
+		<Unit filename="/Users/aijinsong/Documents/projects/com.aijs.cxx/bolochain/block/block.h">
+			<Option target="block"/>
+		</Unit>
+		<Unit filename="/Users/aijinsong/Documents/projects/com.aijs.cxx/bolochain/block/blockchain.cpp">
+			<Option target="blockchain"/>
+		</Unit>
+		<Unit filename="/Users/aijinsong/Documents/projects/com.aijs.cxx/bolochain/block/blockchain.h">
+			<Option target="blockchain"/>
+		</Unit>
+		<Unit filename="/Users/aijinsong/Documents/projects/com.aijs.cxx/bolochain/main.cpp">
+			<Option target="bolochain"/>
+		</Unit>
+		<Unit filename="/Users/aijinsong/Documents/projects/com.aijs.cxx/bolochain/mine/miner.cpp">
+			<Option target="miner"/>
+		</Unit>
+		<Unit filename="/Users/aijinsong/Documents/projects/com.aijs.cxx/bolochain/mine/miner.h">
+			<Option target="miner"/>
+		</Unit>
+		<Unit filename="/Users/aijinsong/Documents/projects/com.aijs.cxx/bolochain/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/aijinsong/Documents/projects/com.aijs.cxx/bolochain/block/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\block\"/>
+		</Unit>
+		<Unit filename="/Users/aijinsong/Documents/projects/com.aijs.cxx/bolochain/mine/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\mine\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

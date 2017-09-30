@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/aijinsong/Documents/projects/com.aijs.cxx/bolochain/block/block.h
+string
+-
+map
+-
+chrono
+-
+
+/Users/aijinsong/Documents/projects/com.aijs.cxx/bolochain/block/blockchain.cpp
+blockchain.h
+/Users/aijinsong/Documents/projects/com.aijs.cxx/bolochain/block/blockchain.h
+../block/block.h
+/Users/aijinsong/Documents/projects/com.aijs.cxx/bolochain/block/block.h
+
+/Users/aijinsong/Documents/projects/com.aijs.cxx/bolochain/block/blockchain.h
+vector
+-
+block.h
+/Users/aijinsong/Documents/projects/com.aijs.cxx/bolochain/block/block.h
+

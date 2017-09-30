@@ -1,0 +1,10 @@
+/Users/aijinsong/Documents/projects/com.aijs.cxx/bolochain/CMakeFiles/rebuild_cache.dir
+/Users/aijinsong/Documents/projects/com.aijs.cxx/bolochain/CMakeFiles/edit_cache.dir
+/Users/aijinsong/Documents/projects/com.aijs.cxx/bolochain/CMakeFiles/bolochain.dir
+/Users/aijinsong/Documents/projects/com.aijs.cxx/bolochain/block/CMakeFiles/rebuild_cache.dir
+/Users/aijinsong/Documents/projects/com.aijs.cxx/bolochain/block/CMakeFiles/edit_cache.dir
+/Users/aijinsong/Documents/projects/com.aijs.cxx/bolochain/block/CMakeFiles/blockchain.dir
+/Users/aijinsong/Documents/projects/com.aijs.cxx/bolochain/block/CMakeFiles/block.dir
+/Users/aijinsong/Documents/projects/com.aijs.cxx/bolochain/mine/CMakeFiles/rebuild_cache.dir
+/Users/aijinsong/Documents/projects/com.aijs.cxx/bolochain/mine/CMakeFiles/edit_cache.dir
+/Users/aijinsong/Documents/projects/com.aijs.cxx/bolochain/mine/CMakeFiles/miner.dir
