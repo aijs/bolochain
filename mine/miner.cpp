@@ -6,7 +6,7 @@
 #include "../block/block.h"
 #include "../block/blockchain.h"
 
-void miner::mine(blockchain blockchain) {
+void miner::mine(blockchain & blockchain) {
     block block;
     blockchain.add(block);
 }

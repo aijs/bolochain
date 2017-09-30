@@ -51,7 +51,7 @@ void block::setPreviousBlockHash(string blockHash){
     previousBlockHash = blockHash;
 }
 
-void block::joinWith(block preBlock){
+void block::joinWith(block & preBlock){
     setPreviousBlockHash(preBlock.calculateHash());
 }
 

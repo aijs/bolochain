@@ -35,7 +35,7 @@ public:
 
     string calculateHash();
 
-    void joinWith(block preBlock);
+    void joinWith(block & preBlock);
 
 };
 

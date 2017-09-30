@@ -11,7 +11,7 @@ class miner {
 
 public:
 
-    void mine(blockchain chain);
+    void mine(blockchain & chain);
 
 };
 

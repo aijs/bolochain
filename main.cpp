@@ -4,6 +4,7 @@
 
 #include <iostream>
 #include "block/blockchain.h"
+#include "block/block.h"
 #include "mine/miner.h"
 
 using namespace std;
@@ -11,15 +12,16 @@ using namespace std;
 int main()
 {
 
-    blockchain blockchain;
-    blockchain.initBlockChain();
-
+    blockchain blockchainTemp;
+    blockchainTemp.initBlockChain();
     miner miner;
-    miner.mine(blockchain);
-    miner.mine(blockchain);
-    miner.mine(blockchain);
+    miner.mine(blockchainTemp);
+    miner.mine(blockchainTemp);
+    miner.mine(blockchainTemp);
 
-    cout << blockchain.getChain().size();
+    vector<block>& chain = blockchainTemp.getChain();
+
+    cout << chain.size();
 
     return 0;
 

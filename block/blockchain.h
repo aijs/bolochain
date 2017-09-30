@@ -14,17 +14,17 @@ class blockchain {
 
 private :
 
-    vector<block> blockchain = {};
+    vector<block> innerChain = {};
 
     block getLastBlock();
 
 public:
 
-    vector<block> getChain();
+    vector<block>& getChain();
 
-    vector<block> initBlockChain();
+    vector<block>& initBlockChain();
 
-    vector<block> add(block block);
+    vector<block>& add(block & block);
 
 };
 
