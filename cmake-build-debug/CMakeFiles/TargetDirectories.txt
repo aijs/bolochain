@@ -1,3 +1,0 @@
-/Users/aijinsong/Documents/projects/com.aijs.cxx/bolochain/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/aijinsong/Documents/projects/com.aijs.cxx/bolochain/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/aijinsong/Documents/projects/com.aijs.cxx/bolochain/cmake-build-debug/CMakeFiles/bolochain.dir
