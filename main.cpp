@@ -3,8 +3,6 @@
 //
 
 #include <iostream>
-#include <vector>
-#include "block/block.h"
 #include "block/blockchain.h"
 #include "mine/miner.h"
 

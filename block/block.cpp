@@ -6,7 +6,6 @@
 #include <string>
 #include <cryptopp/sha.h>
 #include <cryptopp/hex.h>
-#include <iostream>
 
 using namespace std;
 

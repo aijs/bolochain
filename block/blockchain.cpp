@@ -3,7 +3,6 @@
 //
 
 #include "blockchain.h"
-#include "../block/block.h"
 
 vector<block> blockchain::initBlockChain() {
     //TODO by aijs
