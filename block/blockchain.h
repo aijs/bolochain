@@ -16,15 +16,13 @@ private :
 
     vector<block> innerChain = {};
 
-    block getLastBlock();
-
 public:
 
-    vector<block>& getChain();
+    int size();
 
-    vector<block>& initBlockChain();
+    void initBlockChain();
 
-    vector<block>& add(block & block);
+    void add(block & block);
 
 };
 

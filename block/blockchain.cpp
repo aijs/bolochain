@@ -4,25 +4,19 @@
 
 #include "blockchain.h"
 
-vector<block>& blockchain::initBlockChain() {
+void blockchain::initBlockChain() {
     //TODO by aijs
     innerChain = {};
-    return innerChain;
 }
 
-vector<block>& blockchain::getChain(){
-    return innerChain;
+int blockchain::size(){
+    return innerChain.size();
 }
 
-block blockchain::getLastBlock(){
-    return getChain().back();
-}
-
-vector<block>& blockchain::add(block & minedBlock) {
-    if (getChain().size() > 0) {
-        block lastBlock = getLastBlock();
+void blockchain::add(block & minedBlock) {
+    if (innerChain.size() > 0) {
+        block lastBlock = innerChain.back();
         minedBlock.joinWith(lastBlock);
     }
-    getChain().push_back(minedBlock);
-    return getChain();
+    innerChain.push_back(minedBlock);
 }
