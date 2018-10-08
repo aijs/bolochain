@@ -8,13 +8,12 @@
 #include <vector>
 #include "block.h"
 
-using namespace std;
 
 class blockchain {
 
 private :
 
-    vector<block> innerChain = {};
+    std::vector<block> innerChain;
 
 public:
 

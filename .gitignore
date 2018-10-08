@@ -33,3 +33,7 @@
 
 build
 cmake-build-debug
+cmake_install.cmake
+Makefile
+*.cbp
+CMakeCache.txt

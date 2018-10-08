@@ -2,14 +2,15 @@
 // Created by 艾劲松 on 2017/9/30.
 //
 
-#include <iostream>
 #include "block/blockchain.h"
 #include "mine/miner.h"
 
-using namespace std;
+#include <iostream>
+#include <cryptopp/sha.h>
+#include <cryptopp/hex.h>
+#include <string>
 
-int main()
-{
+int main() {
 
     blockchain blockchainTemp;
     blockchainTemp.initBlockChain();
@@ -18,7 +19,8 @@ int main()
     miner.mine(blockchainTemp);
     miner.mine(blockchainTemp);
 
-    cout << blockchainTemp.size();
+    std::cout << blockchainTemp.size();
+    std::cout << std::endl;
 
     return 0;
 

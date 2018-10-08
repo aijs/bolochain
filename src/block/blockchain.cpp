@@ -6,7 +6,7 @@
 
 void blockchain::initBlockChain() {
     //TODO by aijs
-    innerChain = {};
+//    innerChain = {};
 }
 
 int blockchain::size(){

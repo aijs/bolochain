@@ -1,22 +1,26 @@
-cmake_minimum_required(VERSION 3.7)
-project(bolochain)
+# Copyright (c) 2017 The Bitcoin developers
 
+cmake_minimum_required(VERSION 3.12)
 set(CMAKE_CXX_STANDARD 11)
+set(PROJECT_NAME bolochain)
+project(${PROJECT_NAME})
 
-#include(${CMAKE_BINARY_DIR}/conanbuildinfo.cmake)
-#conan_basic_setup()
+# Add path for custom modules
+set(CMAKE_MODULE_PATH
+        ${CMAKE_MODULE_PATH}
+        ${CMAKE_CURRENT_SOURCE_DIR}/cmake/modules
+        )
 
-include_directories ("${PROJECT_SOURCE_DIR}/block")
-add_subdirectory (block)
+# If ccache is available, then use it.
+find_program(CCACHE ccache)
+if(CCACHE)
+    set_property(GLOBAL PROPERTY RULE_LAUNCH_COMPILE ${CCACHE})
+    set_property(GLOBAL PROPERTY RULE_LAUNCH_LINK ${CCACHE})
+endif(CCACHE)
 
-include_directories ("${PROJECT_SOURCE_DIR}/mine")
-add_subdirectory (mine)
+# Add the magic taret check and check-all
+#add_custom_target(check-all)
+#add_custom_target(check)
 
-
-set(SOURCE_FILES main.cpp)
-add_executable(bolochain ${SOURCE_FILES})
-
-target_link_libraries(bolochain cryptopp)
-target_link_libraries(bolochain block)
-target_link_libraries(bolochain blockchain)
-target_link_libraries(bolochain miner)
+add_subdirectory(src)
+add_subdirectory(test)

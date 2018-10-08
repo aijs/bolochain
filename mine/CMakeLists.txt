@@ -1,1 +1,0 @@
-add_library(miner miner.cpp)
